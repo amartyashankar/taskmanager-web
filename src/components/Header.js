@@ -58,7 +58,7 @@ const Header = () => {
           <ButtonAsLink onClick={handleLogout}>Logout</ButtonAsLink>
         ) : (
           <p>
-            <Link to="/signin">SignIn</Link>/<Link to="/signup">SignUp</Link>
+            <Link to="/signin">SignIn</Link> | <Link to="/signup">SignUp</Link>
           </p>
         )}
       </UserState>
