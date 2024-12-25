@@ -91,6 +91,7 @@ const NavList = styled.ul.withConfig({
     width: 100%;
     background: #f5f4f0;
     border-radius: 8px;
+    border: none;
     transition: background 0.3s ease;
 
     &:hover {
