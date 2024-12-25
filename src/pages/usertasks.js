@@ -23,7 +23,7 @@ const UserTasks = () => {
   if (data.userById.tasks.length !== 0) {
     return <TaskFeed tasks={data.userById.tasks} />;
   } else {
-    return <p>No users found</p>;
+    return <p>No tasks found</p>;
   }
   
 };
