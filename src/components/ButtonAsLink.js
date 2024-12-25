@@ -7,7 +7,7 @@ const ButtonAsLink = styled.button`
   font-weight: bold;
   color: #000; /* Matches link color */
   background-color: transparent; /* Matches global background */
-  border: none;
+  border: 2px solid black;
   border-radius: 5px; /* Matches global border-radius */
   text-decoration: none; /* Remove underline */
   cursor: pointer;
