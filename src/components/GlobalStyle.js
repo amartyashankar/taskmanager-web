@@ -30,6 +30,7 @@ export default createGlobalStyle`
     text-decoration: none;
     background-color: transparent;
     border-radius: 5px;
+    border: 2px solid black;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
